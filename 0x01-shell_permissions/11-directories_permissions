@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -maxdepth 1 -mindepth 1 -type d -exec chmod 755 {} \
+dir in */ ; do
+chmod 755 "$dir"
