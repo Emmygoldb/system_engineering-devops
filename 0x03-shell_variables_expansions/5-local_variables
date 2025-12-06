@@ -1,13 +1,5 @@
 #!/bin/bash
-
-# List local variables (variables in this shell that are not exported)
-echo "=== Local Variables ==="
-declare -p | grep -v 'declare -x'
-
-# List environment variables (exported variables)
-echo "=== Environment Variables ==="
-printenv
-
-# List shell functions
-echo "=== Shell Functions ==="
+declare
+declare -x
 declare -F
+
