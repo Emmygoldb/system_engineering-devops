@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# A script that handles SIGTERM and stays alive
+# This script displays To infinity and beyond indefinitely and handles SIGTERM
 
 trap 'echo "I am invincible!!!"' SIGTERM
-
 while true
 do
     echo "To infinity and beyond"
