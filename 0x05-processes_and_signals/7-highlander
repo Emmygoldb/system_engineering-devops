@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#This function is to handle SIGTERM 
 # Function to handle SIGTERM
 sigterm_handler() {
     echo "I am invincible!!!"
